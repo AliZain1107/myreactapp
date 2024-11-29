@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Card from './components/Card'
+import Timeline from './components/Timeline'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +28,8 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR ,,-- Hi there why showing a blank screen!!!
         </p>
       </div>
+      <Card />
+      <Timeline />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
