@@ -1,6 +1,6 @@
 {
-  "name": "todolist",
   "homepage": "https://AliZain1107.github.io/myreactapp",
+  "name": "todolist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
